@@ -1,4 +1,3 @@
-
 <div class="grille-articles">
 
     <?php foreach ($articles as $article): ?>
