@@ -101,7 +101,9 @@ h1 {
 }
 
 
-
+.section-title{
+    border-bottom: 1px solid black;
+}
 
 
 
