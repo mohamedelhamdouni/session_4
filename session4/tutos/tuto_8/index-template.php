@@ -75,7 +75,7 @@ if ($priorite_lower == 'haute') {
                     $date_formatee = date('d/m/Y', strtotime($tache['date_limite']));
                 ?>
 
-                <div class="task-card">
+                <div class="task-card  <?php echo $tache['terminee'] ? 'greenbackground' : ''; ?>">
                     <div class="task-left">
                         <div class="task-checkbox ">
                         

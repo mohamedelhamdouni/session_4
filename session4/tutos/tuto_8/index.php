@@ -23,7 +23,7 @@ $taches = [
         'description' => 'Organiser les traitements de la Todo List et gérer les tableaux.',
         'date_limite' => '2026-11-18',
         'priorite' => 'Haute',
-        'terminee' => true
+        'terminee' => false
     ],
     [
         'id' => 4,
@@ -40,6 +40,14 @@ $taches = [
         'date_limite' => '2026-11-22',
         'priorite' => 'Haute',
         'terminee' => false
+    ],
+        [
+        'id' => 6,
+        'titre' => 'Préparer la collection des tâches',
+        'description' => 'Mettre en place le tableau multidimensionnel associatifet corriger les éventuelles erreurs..',
+        'date_limite' => '2026-11-22',
+        'priorite' => 'Haute',
+        'terminee' => true
     ],
 
 ];
