@@ -47,7 +47,7 @@ $taches = [
         'description' => 'Mettre en place le tableau multidimensionnel associatifet corriger les éventuelles erreurs..',
         'date_limite' => '2026-11-22',
         'priorite' => 'Haute',
-        'terminee' => true
+        'terminee' => false
     ],
 
 ];

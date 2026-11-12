@@ -19,8 +19,8 @@
 
     
         <div class="stats-container">
-            <div class="stat-card">
-                <div class="card_short blue"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers-arrow-down preview-icon"><path d="M12 7v15"/><path d="M2 12a1 1 0 00.58.91l5.093 2.316"/><path d="M22 12a1 1 0 01-.59.92l-5.077 2.308"/><path d="M8 10.37 2.6 7.91a1 1 0 010-1.831l8.57-3.9a2 2 0 011.66.001l8.59 3.91a1 1 0 010 1.831l-5.392 2.45"/><path d="m9 19 3 3 3-3"/></svg></div>
+            <div class="stat-card blue">
+                <div class="card_short "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers-arrow-down preview-icon"><path d="M12 7v15"/><path d="M2 12a1 1 0 00.58.91l5.093 2.316"/><path d="M22 12a1 1 0 01-.59.92l-5.077 2.308"/><path d="M8 10.37 2.6 7.91a1 1 0 010-1.831l8.57-3.9a2 2 0 011.66.001l8.59 3.91a1 1 0 010 1.831l-5.392 2.45"/><path d="m9 19 3 3 3-3"/></svg></div>
                 <div class="stat-info">
                     <span>Total</span>
                     <strong><?php echo $total_taches; ?></strong>
@@ -28,7 +28,7 @@
                
             </div>
 
-            <div class="stat-card">
+            <div class="stat-card green">
                 <div class="card_short green"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></div>
                 <div class="stat-info">
                     <span>Terminées</span>
@@ -37,8 +37,8 @@
                 
             </div>
 
-            <div class="stat-card">
-                <div class="card_short orange"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle preview-icon"><circle cx="12" cy="12" r="10"/></svg></div>
+            <div class="stat-card gray">
+                <div class="card_short orange"></div>
                 <div class="stat-info">
                     <span>Restantes</span>
                     <strong><?php echo $taches_restantes; ?></strong>
