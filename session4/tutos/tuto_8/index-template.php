@@ -77,10 +77,10 @@ if ($priorite_lower == 'haute') {
 
                 <div class="task-card  <?php echo $tache['terminee'] ? 'greenbackground' : ''; ?>">
                     <div class="task-left">
-                        <div class="task-checkbox ">
-                        
-                        </div>
+
                         <input type="checkbox"  <?php echo $tache['terminee'] ? 'checked' : ''; ?> >
+
+
                         <div class="task-content">
                             <h3><?php echo htmlspecialchars($tache['titre']); ?></h3>
                             <p><?php echo htmlspecialchars($description_courte); ?></p>

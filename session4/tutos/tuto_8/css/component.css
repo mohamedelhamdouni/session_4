@@ -20,7 +20,7 @@ body {
     max-width: 850px;
     width: 100%;
     margin: 0 auto;
-    background-color: #a6cfd2;
+    background-color: #c0e8eb;
     border-radius: 20px;
     padding: 30px;
 }
@@ -161,32 +161,6 @@ h1 {
 
 
 
-.task-checkbox {
-    width: 20px;
-    height: 20px;
-    min-width: 20px;
-    border-radius: 6px;
-    border: 2px solid #DCEFF7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3px;
-}
-
-
-
-.task-checkbox.done {
-    background-color: #E9FBEF;
-    border-color: #D1EFDC;
-    color: #16803C;
-}
-
-
-
-.task-checkbox.pending {
-    background-color: #FFFFFF;
-    border-color: #DFEBF6;
-}
 
 
 
@@ -254,7 +228,7 @@ h1 {
     white-space: nowrap;
 }
 .greenbackground{
-    background-color: #bfe3c8;
+    background-color: #bce8c4;
 }
 
 

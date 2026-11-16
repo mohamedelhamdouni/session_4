@@ -20,7 +20,7 @@ $taches = [
     [
         'id' => 3,
         'titre' => 'Créer les fonctions PHP',
-        'description' => 'Organiser les traitements de la Todo List et gérer les tableaux.',
+        'description' => 'Organiser les traitements de la Todo List et gérer les fonctionnement et corriger tableaux.',
         'date_limite' => '2026-11-18',
         'priorite' => 'Haute',
         'terminee' => false
@@ -28,7 +28,7 @@ $taches = [
     [
         'id' => 4,
         'titre' => 'Tester l\'application',
-        'description' => 'Vérifier le bon fonctionnement et corriger les éventuelles erreurs.',
+        'description' => 'Vérifier le bon fonctionnement et corriger les éventuelles erreurs.fonctionnement et corriger',
         'date_limite' => '2026-11-20',
         'priorite' => 'Basse',
         'terminee' => false
