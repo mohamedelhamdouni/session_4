@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    ;
+    width: 100%;
+   
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    width: 100%;
+    background-color: blue;
+
+}
+nav{
+    width: 50%;
+    display: flex;
+    gap: 10%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.title{
+    width: 20%;
+   
+
+}
+.title h3{
+    margin-left: 10%;
+     color: red;
+    font-size: 120%;
+}
+.nav_item{
+    text-decoration: none;
+
+    color: rgb(248, 247, 247);
+}
+
+
+main{
+   
+}
+.listproject{
+  
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: start;
+    flex-wrap: wrap;
+  padding: 30px;
+  row-gap: 30px;
+  column-gap: 30px;
+
+}
+
+
+.card_project{
+    width: 300px;
+    border: 1px solid rgb(128, 128, 128);
+    overflow: hidden;
+    border-radius: 15px;
+   position: relative;
+
+
+
+   box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.12), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+ 
+}
+
+img{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+   
+   
+}
+
+.detalis{
+    padding: 20px;
+}
+h1{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.technologies{
+    color: grey;
+    margin-bottom: 42px;
+}
+.footer_card{
+    
+   
+    border-top: 1px solid rgb(187, 186, 186);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+  height: 30px;
+  bottom: 10px;
+    
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-top: 10px;
+   
+}
+.status{
+    width: 30%;
+     display: flex;
+    align-items: center;
+     margin-top: 10px;
+}
+
+
+.termine{
+    background-color: rgb(203, 242, 203);
+    color: rgb(26, 237, 26);
+    border: 3px solid  rgb(203, 242, 203) ;
+    border-radius: 6px;
+    
+  
+}
+
+.encoure{
+    background-color: rgb(177, 177, 177);
+    color: grey;
+     border: 3px solid  rgb(181, 180, 180) ;
+      border-radius: 6px;
+}
+
+
+.javascript{
+ background-color: #fef9c3; 
+    color: #a16207;            
+    border: 1px solid #fef08a;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+
+.web{
+  background-color: #dbeafe;
+    color: #1e40af;           
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+
+.desktop{
+    background-color: #f0cccc; 
+    color: #e51f1f;            
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
