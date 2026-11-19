@@ -24,7 +24,7 @@
 
    <main>
 
-
+<h1 class="title_main">my projects</h1>
 
    <div class="listproject">
    <?php foreach($projects as $project): ?>
